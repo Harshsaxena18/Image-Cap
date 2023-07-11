@@ -43,7 +43,8 @@ data_generator = create_data_generator(sequences, train_features, wordtoix, max_
 model = create_model(vocab_size, max_length, embedding_matrix)
 
 # Load the trained model weights
-model.load_weights('path/to/model/weights.h5')
+model.load_weights('saved_models/Final_Image_Captioning.h5')
+
 
 # Streamlit app
 def main():
