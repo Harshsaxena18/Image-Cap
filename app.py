@@ -4,7 +4,7 @@ import numpy as np
 from data_loader import load_descriptions, create_tokenizer, load_train_images, load_image_paths, load_train_descriptions, create_vocab, create_word_mappings, create_sequences, create_data_generator
 from model import create_model
 from inference import greedy_search
-pip install keras
+
 
 
 # Set up constants
