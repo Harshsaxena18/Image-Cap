@@ -6,10 +6,10 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Paths
-token_path = "Flickr8k.token.txt"
-train_images_path = 'Flickr_8k.trainImages.txt'
-test_images_path = 'Flickr_8k.testImages.txt'
-model_path = 'Final_Image_Captioning.h5'
+token_path = 'saved_models/Flickr8k.token.txt'
+train_images_path = 'saved_models/Flickr_8k.trainImages.txt'
+test_images_path = 'saved_models/Flickr_8k.testImages.txt'
+model_path = 'saved_models/Final_Image_Captioning.h5'
 
 def preprocess_image(image_path):
     img = image.load_img(image_path, target_size=(299, 299))
